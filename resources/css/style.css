@@ -1,0 +1,76 @@
+
+/* Genesis */
+
+@font-face {
+  font-family: 'Kanit', sans-serif;
+  src: url(../fonts/kanit/kanit-regular.ttf) format('truetype');
+}
+
+.container {
+  margin: auto 24px;
+  width: 100%;
+}
+
+/* Header Section */
+
+/* logo */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  font-family: "kanit", sans-serif;
+}
+
+#header {
+  display: flex;
+}
+
+#logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+#logo h1 span {
+  font-weight: 600;
+  color: gray;
+}
+
+header div img {
+
+}
+
+/* Navigation */
+
+header nav {
+
+}
+
+header nav span {
+
+}
+
+header nav span a {
+  display: inline-block;
+  padding: 24px 8px;
+  text-decoration: none;
+  color: #4E4E4E;
+  font-weight: 600;
+}
+
+header nav span a:hover {
+}
+
+#signin {
+  padding-right: 0px;
+}
+
+header nav img {
+  display: none;
+}
