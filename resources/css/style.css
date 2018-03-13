@@ -6,6 +6,10 @@
   src: url(../fonts/kanit/kanit-regular.ttf) format('truetype');
 }
 
+body {
+  font-family: "kanit", sans-serif;
+}
+
 .container {
   margin: auto 24px;
   width: 100%;
@@ -22,7 +26,6 @@ header {
   width: 100%;
   z-index: 1;
   background-color: white;
-  font-family: "kanit", sans-serif;
 }
 
 #header {
@@ -73,4 +76,61 @@ header nav span a:hover {
 
 header nav img {
   display: none;
+}
+
+/* Banner Section */
+
+article {
+  background-color: lightgray;
+  padding-top: 96px;
+  padding-bottom: 32px;
+  display: flex;
+}
+
+article img {
+  max-width: 100%;
+}
+
+article .container {
+  width: auto;
+}
+
+#bannertxt {
+  display: block;
+  position: relative;
+  max-width: 30%;
+  top: 8em;
+  color: #323232;
+}
+
+#bannertxt h1 {
+  font-size: 4em;
+  font-weight: 900;
+  padding-bottom: 1em;
+}
+
+#bannertxt h2 {
+  font-size: 2em;
+  font-weight: 600;
+  padding-bottom: 2em;
+  line-height: 1.5em;
+}
+
+#bannertxt div {
+}
+
+#bannertxt div h3 {
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #4E4E4E;
+  padding: 8px;
+}
+
+#bannertxt div h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+#bannertxt div h3 a:hover {
+
 }
