@@ -8,6 +8,7 @@
 
 body {
   font-family: "kanit", sans-serif;
+  color: #323232;
 }
 
 .container {
@@ -100,7 +101,6 @@ article .container {
   position: relative;
   max-width: 30%;
   top: 8em;
-  color: #323232;
 }
 
 #bannertxt h1 {
@@ -133,4 +133,92 @@ article .container {
 
 #bannertxt div h3 a:hover {
 
+}
+
+/* Middle Section */
+
+#midsec {
+  display: flex;
+}
+
+#midsec .container {
+  width: 58%;
+  margin: 32px 24px;
+}
+
+#midsec1 {
+
+}
+
+#midsec1 img {
+  padding-bottom: 32px;
+}
+
+#midsec1 h1 {
+  font-size: 4em;
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+
+#midsec1 h2 {
+  font-size: 1.5em;
+}
+
+#midsec1 p {
+  padding-top: 30px;
+  font-size: 1.1em;
+  margin-bottom: 32px;
+}
+
+#midsec1 h2, p {
+  color: #4E4E4E;
+}
+
+/* Campus Info */
+
+#midsec2 {
+  padding-top: 16px;
+  border-left: 1px solid lightgray;
+}
+
+#midsec2 section:hover {
+  background-color: lightgray;
+}
+
+.ms2-boxes {
+  display: flex;
+  padding: 16px;
+}
+
+.ms2-boxes img {
+  padding-right: 24px;
+}
+
+.ms2-boxes div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ms2-boxes div h1 {
+  font-size: 2em;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+
+.ms2-boxes div h2, span {
+  font-size: 1.3em;
+}
+
+.ms2-boxes div h2 {
+
+}
+
+.ms2-boxes div span {
+  padding-top: 16px;
+}
+
+.ms2-boxes div a {
+  text-decoration: none;
+  color: deepskyblue;
 }
