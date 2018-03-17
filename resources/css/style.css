@@ -287,3 +287,96 @@ article .container {
 #compart h3 {
   width: 81%;
 }
+
+/* Thesis Section */
+
+#thesis-sec {
+
+}
+
+#te-title {
+  font-size: 4em;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 32px;
+}
+
+#thesis {
+  display: flex;
+  align-items: end;
+}
+
+/*#tvideo {
+  margin: 32px 24px;
+  width: 60%;
+}*/
+
+#thesis video {
+  width: 60%;
+  padding-bottom: 24px;
+  margin: 32px 24px 0px 24px;
+}
+
+#tvideo div {
+
+}
+
+#tvideo div h1 {
+  font-size: 4em;
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+
+#tvideo div h2 {
+  font-size: 1.5em;
+  color: #4E4E4E;
+}
+
+#tvideo2 {
+  margin-top: 16px;
+}
+
+#tvideo2 section:hover {
+  background-color: lightgray;
+}
+
+.te-boxes {
+  display: flex;
+  padding: 16px;
+}
+
+.te-boxes img {
+  padding-right: 16px;
+}
+
+.te-boxes div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.te-boxes div h1 {
+  font-size: 2em;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+
+.te-boxes div h2 {
+  font-size: 1.3em;
+}
+
+#urban {
+  margin: 32px 24px;
+  width: 51%;
+}
+
+#urban h1 {
+  font-size: 2em;
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+
+#urban h2 {
+  font-size: 1.5em;
+  color: #4E4E4E;
+}
