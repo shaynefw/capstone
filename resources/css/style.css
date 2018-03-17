@@ -380,3 +380,29 @@ article .container {
   font-size: 1.5em;
   color: #4E4E4E;
 }
+
+/* Footer Section */
+
+footer {
+  border-top: 2px solid gray;
+}
+
+#copyright {
+  display: flex;
+  margin: auto 24px;
+  padding-bottom: 40px;
+  padding-top: 16px;
+}
+
+#copyright h1 {
+  flex-grow: 1;
+}
+
+#copyright h2 {
+
+}
+
+#copyright a {
+  text-decoration: none;
+  color: #323232;
+}
