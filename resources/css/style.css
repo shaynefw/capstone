@@ -206,7 +206,7 @@ article .container {
   padding-bottom: 16px;
 }
 
-.ms2-boxes div h2, span {
+.ms2-boxes div h2, .ms2-boxes div span {
   font-size: 1.3em;
 }
 
@@ -221,4 +221,69 @@ article .container {
 .ms2-boxes div a {
   text-decoration: none;
   color: deepskyblue;
+}
+
+/* Learning Section */
+
+#learning {
+  background-color: lightgray;
+}
+
+#learn {
+  font-size: 4em;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+#learn h1 {
+
+}
+
+#learn2 {
+  margin: auto 56px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 32px;
+  justify-content: center;
+}
+
+.courses {
+  padding: 16px;
+  width: min-content;
+}
+
+.courses img {
+  height: auto;
+}
+
+.courses div {
+  background-color: white;
+  padding: 16px;
+  line-height: 24px;
+}
+
+.courses div h1 {
+  font-size: 2em;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+
+.courses div h2, h3 {
+  font-size: 1.2em;
+  padding: 8px 0px;
+  color: #9B9B9B;
+}
+
+.courses div h2 {
+
+}
+
+.courses div h3 {
+  width: 67%;
+}
+
+#compart h3 {
+  width: 81%;
 }
