@@ -137,7 +137,7 @@ article .container {
 
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1824px) {
+@media only screen and (max-width: 1824px) {
 
   #bannertxt {
     top: 5em;
@@ -154,6 +154,25 @@ article .container {
 
   #bannertxt div {
     width: 87%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+  article img {
+    max-width: 100%;
+  }
+
+  #bannertxt {
+    top: 2em;
+  }
+
+  #bannertxt h1 {
+    font-size: 1.7em;
+  }
+
+  #bannertxt h2 {
+    font-size: 1.2em;
   }
 }
 
@@ -196,7 +215,7 @@ article .container {
   color: #4E4E4E;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1824px) {
+@media only screen and (max-width: 1824px) {
 
   #midsec .container {
     width: unset;
@@ -213,6 +232,24 @@ article .container {
 
   #midsec1 h1 {
     font-size: 3em;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+  #midsec {
+    display: block;
+  }
+
+  #midsec1 {
+    height: 22em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #midsec1 h1 {
+    font-size: 2.5em;
   }
 }
 
@@ -265,7 +302,7 @@ article .container {
   color: deepskyblue;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1824px) {
+@media only screen and (max-width: 1824px) {
 
   #midsec2 {
   }
@@ -277,6 +314,14 @@ article .container {
   .ms2-boxes img {
     height: 11em;
   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+  #midsec2 {
+    padding-top: 12em;
+  }
+
 }
 
 /* Learning Section */
@@ -344,7 +389,7 @@ article .container {
   width: 81%;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1824px) {
+@media only screen and (max-width: 1824px) {
 
   .courses {
     width: 30%;
@@ -368,6 +413,25 @@ article .container {
 
   .courses div h2, h3 {
     font-size: 21px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+  #learn {
+    font-size: 3em;
+  }
+
+  .courses {
+    width: 44%;
+  }
+
+  .courses div h1 {
+    font-size: 1.5em;
+  }
+
+  .courses div h2, h3 {
+    font-size: 1em;
   }
 }
 
@@ -464,7 +528,7 @@ article .container {
   color: #4E4E4E;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1824px) {
+@media only screen and (max-width: 1824px) {
 
   .te-boxes {
   display: inline-flex;
@@ -480,6 +544,29 @@ article .container {
 
   .te-boxes div h2 {
     font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+  #te-title {
+    font-size: 3em;
+  }
+
+  #thesis {
+    display: unset;
+  }
+
+  #thesis video {
+    width: 96%;
+  }
+
+  .te-boxes img {
+    height: 12em;
+  }
+
+  #urban {
+    width: 97%;
   }
 }
 
