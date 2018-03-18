@@ -69,6 +69,8 @@ header nav span a {
 }
 
 header nav span a:hover {
+  color: white;
+  background-color: lightgray;
 }
 
 #signin {
@@ -89,7 +91,7 @@ article {
 }
 
 article img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 article .container {
@@ -135,6 +137,26 @@ article .container {
 
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1824px) {
+
+  #bannertxt {
+    top: 5em;
+    max-width: 32%;
+  }
+
+  #bannertxt h1 {
+    font-size: 2.5em;
+  }
+
+  #bannertxt h2 {
+    font-size: 1.5em;
+  }
+
+  #bannertxt div {
+    width: 87%;
+  }
+}
+
 /* Middle Section */
 
 #midsec {
@@ -172,6 +194,26 @@ article .container {
 
 #midsec1 h2, p {
   color: #4E4E4E;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1824px) {
+
+  #midsec .container {
+    width: unset;
+    margin: 32px 24px;
+  }
+
+  #midsec1 {
+    width: 100%;
+  }
+
+  #midsec1 img {
+    height: 22em;
+  }
+
+  #midsec1 h1 {
+    font-size: 3em;
+  }
 }
 
 /* Campus Info */
@@ -221,6 +263,20 @@ article .container {
 .ms2-boxes div a {
   text-decoration: none;
   color: deepskyblue;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1824px) {
+
+  #midsec2 {
+  }
+
+  .ms2-boxes {
+    display: inline-flex;
+  }
+
+  .ms2-boxes img {
+    height: 11em;
+  }
 }
 
 /* Learning Section */
@@ -286,6 +342,33 @@ article .container {
 
 #compart h3 {
   width: 81%;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1824px) {
+
+  .courses {
+    width: 30%;
+  }
+
+  .courses img {
+    width: 100%;
+  }
+
+  .courses div h1 {
+    font-size: 1.5em;
+  }
+
+  #software  h3 {
+    padding-bottom: 31px;
+  }
+
+  .courses div h3 {
+    width: 72%;
+  }
+
+  .courses div h2, h3 {
+    font-size: 21px;
+  }
 }
 
 /* Thesis Section */
@@ -379,6 +462,25 @@ article .container {
 #urban h2 {
   font-size: 1.5em;
   color: #4E4E4E;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1824px) {
+
+  .te-boxes {
+  display: inline-flex;
+  }
+
+  .te-boxes img {
+    height: 10em;
+  }
+
+  .te-boxes div h1 {
+    font-size: 1.5em;
+  }
+
+  .te-boxes div h2 {
+    font-size: 1em;
+  }
 }
 
 /* Footer Section */
